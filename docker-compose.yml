@@ -11,10 +11,3 @@ services:
       - '8080:80'
     volumes:
       - .:/app
-    networks:
-      - network
-
-networks:
-  network:
-    driver: bridge
-  
